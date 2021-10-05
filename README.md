@@ -37,7 +37,7 @@ The results produced in order to answer our research questions are provided in t
 Please, use the following bibtex entry:
 
 ```
-@inproceedings{Hamdi2021smells,
+@inproceedings{Hamdi2021empirical1,
   title={An Empirical Study on Code Smells Co-occurrences in Android Applications},
   author=Hamdi, Oumayma and Ouni, Ali and AlOmar, Eman Abdullah and Mkaouer, Mohamed Wiem},
   booktitle={36th IEEE/ACM International Conference on Automated Software Engineering (ASE '21)},
