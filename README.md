@@ -8,14 +8,14 @@ Data collection
 The data used for this study can be obtained by executing the scripts available in Data Collection folder: 
 
 1. [githubCrawler.py](https://github.com/Oumaymahamdi/smell-co-occurences/blob/main/Data%20Collection/githubCrawler/githubCrawler.py) - Mines Github repository for open-source, published apps.
-2. [androidManifestChecker.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/Data%20Collection/AndroidManifestChecker/androidManifestChecker.py) - Filters apps that do not have a corresponding Manifest file. 
-3. [googlePlayPageChecker.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/Data%20Collectionn/googlePlayPageChecker/googlePlayPageChecker.py) - Identifies the existence of Google Play Store page reported in links in repositories
-4. [csvDuplicatesRemover.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/Data%20Collection/csvDuplicatesRemover/csvDuplicatesRemover.py) - Removes duplicate entries from the csv.  
-5. [appsCloning.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/Data%20Collection/AppsCloning/clone.py) - Clones the Github repository
-6. [AndroidCodeSmellsDetection.py](https://github.com/stilab-ets/smell-co-occurences/tree/main/Data%20Collection/AndroidCodeSmellsDetection) -  Detects Android smells.
-7. [OOCodesmellsDetection.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/Data%20Collection/OOCodesmellsDetection/OOCodesmellsDetection.py) - Detects Object Oriented smells.
-8. [JSONParser.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/Data%20Collection/JSONParser/JSONParser.py) - Parses JSON files (returns of Organic) and converts them to CSV files.
-9. [Merge.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/Data%20Collection/Merge/merge.py) - Merges CSV files. 
+2. [androidManifestChecker.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/dataCollection/AndroidManifestChecker/androidManifestChecker.py) - Filters apps that do not have a corresponding Manifest file. 
+3. [googlePlayPageChecker.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/dataCollection/googlePlayPageChecker/googlePlayPageChecker.py) - Identifies the existence of Google Play Store page reported in links in repositories
+4. [csvDuplicatesRemover.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/dataCollection/csvDuplicatesRemover/csvDuplicatesRemover.py) - Removes duplicate entries from the csv.  
+5. [appsCloning.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/dataCollection/AppsCloning/clone.py) - Clones the Github repository
+6. [AndroidCodeSmellsDetection.py](https://github.com/stilab-ets/smell-co-occurences/tree/main/dataCollection/AndroidCodeSmellsDetection) -  Detects Android smells.
+7. [OOCodesmellsDetection.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/dataCollection/OOCodesmellsDetection/OOCodesmellsDetection.py) - Detects Object Oriented smells.
+8. [JSONParser.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/dataCollection/JSONParser/JSONParser.py) - Parses JSON files (returns of Organic) and converts them to CSV files.
+9. [Merge.py](https://github.com/stilab-ets/smell-co-occurences/blob/main/dataCollection/Merge/merge.py) - Merges CSV files. 
 
 Analysis 
 ---------------
