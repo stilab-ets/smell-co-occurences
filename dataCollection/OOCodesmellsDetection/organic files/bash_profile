@@ -1,0 +1,8 @@
+#configuration to run the smell detector
+export ECLIPSE_PATH="/Users/leonardo/eclipse/eclipse_mars/Eclipse.app/Contents/Eclipse/plugins"
+
+export EQUINOX="${ECLIPSE_PATH}/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar"
+
+export MAIN="org.eclipse.core.launcher.Main"
+
+export ORGANIC="organic.Organic"

@@ -1,0 +1,30 @@
+You can download the project from here :https://github.com/fpalomba/aDoctor. After that, you have to follow these steps: 
+
+There are two ways to run the code smell detection. Firstly, once downloaded the tool, you can rely on the Graphical User Interface. Secondly, there is also a command-line support (made available to programmatically run aDoctor).
+
+To run the tool via command-line, you need to invoke the following command:
+
+java -cp aDoctor-1.0.jar it.unisa.aDoctor.process.RunAndroidSmellDetection [path-to-android-app] [path-to-where- i-want-to save-the results] [smell-ID]
+
+where:
+
+[path-to-android-app] is the path to the folder containing the Android project to analyze;
+[path-to-where- i-want-to save-the results] is the path to the file where the code smell candidates will be printed;
+[smell-ID] is the ID of the code smell to identify.
+The complete list of code smell IDs is in the following:
+
+100000000000000: Data Transmission Without Compression;
+010000000000000: Debuggable Release;
+001000000000000: Durable Wakelock;
+000100000000000: Inefficient Data Format and Parser;
+000010000000000: Inefficient Data Structure;
+000001000000000: Inefficient SQL Query;
+000000100000000: Internal Getter and Setter;
+000000010000000: Leaking Inner Class;
+000000001000000: Leaking Thread;
+000000000100000: Member Ignoring Method;
+000000000010000: No Low Memory Resolver;
+000000000001000: Public Data;
+000000000000100: Rigid Alarm Manager;
+000000000000010: Slow Loop;
+000000000000001: Unclosed Closable;
