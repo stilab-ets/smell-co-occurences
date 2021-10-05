@@ -1,0 +1,23 @@
+You can download the jar (organic_1.0.0.201702051711). After that, you have to follow these steps;
+
+1. Download the Eclipse Mars EE (https://www.eclipse.org/downloads/packages/release/mars/2). It is very important to use this version because it was the one that we use to develop the Organic tool. So, I know that it works.
+
+2. Set the environment variables. If you're using a Unix-based system, you just have to set the .bash_profile (or .bashrc). If you use mac, all is explained in in the .bash_profile file. 
+
+export ECLIPSE_PATH="/path/to/eclipse/installation/plugin/folder"
+export EQUINOX="${ECLIPSE_PATH}/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar"
+
+export MAIN="org.eclipse.core.launcher.Main"
+
+export ORGANIC="organic.Organic"
+
+You have to be careful when setting the EQUINOX variable. Depending on the version of your eclipse, the version of org.eclipse.equinox.launcher can change. Check it out inside your eclipse plugins folder. In my case, the correct equinox jar file name was org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar
+
+3. Copy the "organic_1.0.0.201702051711.jar" file to insider the Eclipse plugins folder (The file is the dropbox link)
+
+4. Make sure that the four variables have been set. To test the variable just type the command "echo $EQUINOX" in the terminal, and verify if it is pointing to the right file.
+
+5. Now you just have to run the following command:
+
+java -jar -XX:MaxPermSize=2560m -Xms40m -Xmx2500m ${EQUINOX} -application ${ORGANIC} -sf "file_name_to_save_the_smells.json" -src "path_to_the_source_folder_to_collect_smells"
+ 
