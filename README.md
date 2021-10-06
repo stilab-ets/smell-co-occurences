@@ -40,7 +40,7 @@ Please, use the following bibtex entry:
 @inproceedings{Hamdi2021empirical1,
   title={An Empirical Study on Code Smells Co-occurrences in Android Applications},
   author=Hamdi, Oumayma and Ouni, Ali and AlOmar, Eman Abdullah and Mkaouer, Mohamed Wiem},
-  booktitle={36th IEEE/ACM International Conference on Automated Software Engineering (ASE '21)},
+  booktitle={5th International Workshop on Refactoring (IWoR)},
   pages={1--8},
   year={2021}
 }
